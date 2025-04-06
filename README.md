@@ -11,3 +11,7 @@ npm install react-router-dom
 
 ### Material UI
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+### Redux
+npm install --save react-redux
+npm install @reduxjs/toolkit
