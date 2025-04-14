@@ -14,7 +14,7 @@ npm install react-router-dom
 
 ### Material UI
 
-npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/joy
 
 ### Redux
 
@@ -23,6 +23,10 @@ npm install @reduxjs/toolkit
 npm install --save redux-thunk // Redux-thunk - один из самых простых миддлваров
 npm install redux-saga //  распространенная библиотека для миддлвара
 npm install redux-persist //  распространенная библиотека для миддлвара
+
+### Axios
+
+npm install axios // HTTP-клиент, основанный на Promise
 
 
 В современном React-приложении (с использованием функциональных компонентов и хуков) принято использовать следующую структуру папок, ориентированную на features/modules, а не на типы файлов. Это улучшает масштабируемость и изолированность логики.
