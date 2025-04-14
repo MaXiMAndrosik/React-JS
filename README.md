@@ -19,9 +19,13 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material @mu
 ### Redux
 
 npm install --save redux react-redux @reduxjs/toolkit
+
 npm install @reduxjs/toolkit
+
 npm install --save redux-thunk // Redux-thunk - один из самых простых миддлваров
+
 npm install redux-saga //  распространенная библиотека для миддлвара
+
 npm install redux-persist //  распространенная библиотека для миддлвара
 
 ### Axios
