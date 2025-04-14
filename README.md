@@ -18,8 +18,11 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 
 ### Redux
 
-npm install --save redux react-redux
+npm install --save redux react-redux @reduxjs/toolkit
 npm install @reduxjs/toolkit
+npm install --save redux-thunk // Redux-thunk - один из самых простых миддлваров
+npm install redux-saga //  распространенная библиотека для миддлвара
+npm install redux-persist //  распространенная библиотека для миддлвара
 
 
 В современном React-приложении (с использованием функциональных компонентов и хуков) принято использовать следующую структуру папок, ориентированную на features/modules, а не на типы файлов. Это улучшает масштабируемость и изолированность логики.
