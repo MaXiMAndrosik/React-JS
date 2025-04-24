@@ -1,0 +1,55 @@
+@import '../../app/styles/vars';
+
+.header-navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    min-height: 75px;
+
+    &__left {
+        display: flex;
+        align-items: flex-end;
+        gap: 41px;
+    }
+
+    &__right {
+        display: flex;
+        gap: 33px;
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
+        background: rgb(34, 34, 34);
+    }
+
+    &__cart {
+        position: relative;
+    }
+
+    &__cart_sales {
+        display: none;
+        @include centerFlex();
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background: $colorHighlight;
+        width: 19px;
+        height: 19px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-navi__right {
+        gap: 32px;
+    }
+}
+

@@ -1,0 +1,171 @@
+@import '../../../app/styles/vars';
+
+.main-content-top {
+    display: flex;
+    align-items: center;
+    background: rgb(241, 228, 230);
+    gap: 64px;
+    position: relative;
+
+    &__title {
+        margin-top: 290px;
+        margin-bottom: 381px;
+        border-left: 12px solid $colorHighlight;
+        padding-left: 16px;
+        color: rgb(34, 34, 34);
+
+        h2 {
+            font-weight: 900;
+            font-size: 48px;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        .red_title {
+            color: $colorHighlight;
+        }
+    }
+}
+
+.for-sale {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 65px;
+    padding-bottom: 96px;
+
+    &__card {
+        position: relative;
+    }
+
+    &__card_accesories {
+        grid-column: 1 / -1;
+        position: relative;
+    }
+
+    &__backGround {
+        @include centerFlex();
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(33, 22, 22, 0.7);
+
+        h4 {
+            font-weight: 400;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+            color: $colorHighlight;
+        }
+    }
+}
+
+.browse-all {
+    @include centerFlex();
+    margin-top: 48px;
+    margin-bottom: 95px;
+
+    &_btn {
+        padding: 15px 39px;
+        border: 1px solid $colorHighlight;
+        background: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        color: $colorHighlight;
+        cursor: pointer;
+
+        &:hover {
+            background: $colorHighlight;
+            color: rgb(255, 255, 255);
+            animation: animating-buttons .3s;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-content-top {
+        max-height: 368px;
+        gap: 40px;
+
+        img {
+            max-height: 368px;
+        }
+
+        &__title {
+            margin-top: 138px;
+            margin-bottom: 152px;
+
+            h2 {
+                font-size: 44px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .for-sale {
+        gap: 19px;
+        padding-bottom: 155px;
+    }
+
+    .browse-all {
+        margin-top: 32px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .main-content-top {
+        justify-content: center;
+        max-height: 363px;
+        padding-top: 148px;
+        padding-bottom: 149px;
+
+        &__title {
+            padding-left: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        &__hide {
+            display: none;
+        }
+
+        h2 {
+            font-size: 38px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .for-sale {
+        @include columnFlex();
+        gap: 32px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        &__card_accesories {
+            min-height: 111px;
+
+            img {
+                height: 111px;
+                object-fit: cover;
+            }
+        }
+    }
+}

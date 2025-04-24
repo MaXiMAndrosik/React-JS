@@ -1,0 +1,23 @@
+.error-state {
+    text-align: center;
+    padding: 2rem;
+
+    p {
+        color: #e63946;
+        margin-bottom: 1rem;
+    }
+}
+
+.retry-button {
+    padding: 8px 16px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    &:hover {
+        background: #357abd;
+    }
+}
