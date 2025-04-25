@@ -1,4 +1,3 @@
-
 export const ProductContentBox = ({ product }) => {
     // Форматирование цены товара
     const currentPrice = new Intl.NumberFormat("en", {

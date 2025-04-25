@@ -93,7 +93,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px), (pointer: coarse){
+@media (min-width: 768px) and (max-width: 1024px), (pointer: coarse) and (min-width: 1024px){
     .main-content-top {
         max-height: 368px;
         gap: 40px;
@@ -127,7 +127,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px)  {
+@media (min-width: 375px) and (max-width: 767px) and (pointer: coarse)  {
     .main-content-top {
         justify-content: center;
         max-height: 363px;
