@@ -44,7 +44,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px) and (pointer: coarse)  {
+@media (min-width: 375px) and (max-width: 767px), (pointer: coarse) and (max-width: 1023px)  {
     .main-top {
         justify-content: center;
         flex-direction: column;

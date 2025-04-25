@@ -42,7 +42,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px) and (pointer: coarse)  {
+@media (min-width: 375px) and (max-width: 767px), (pointer: coarse) and (max-width: 1023px)  {
     .footer {
         flex-direction: column-reverse;
         gap: 40px;
