@@ -32,7 +32,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px), (hover: hover) and (pointer: fine){
+@media (min-width: 768px) and (max-width: 1024px), (pointer: coarse){
     .feature {
         flex-direction: column;
         gap: 48px;
@@ -49,8 +49,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px),
-(pointer: coarse)  {
+@media (min-width: 375px) and (max-width: 767px)  {
     .feature {
         flex-direction: column;
         gap: 46px;

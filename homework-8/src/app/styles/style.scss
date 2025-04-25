@@ -231,7 +231,7 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px), (hover: hover) and (pointer: fine) {
+@media (min-width: 768px) and (max-width: 1024px), (pointer: coarse) {
     .conteiner {
         padding-left: calc(50% - 367px);
         padding-right: calc(50% - 367px);
@@ -252,8 +252,7 @@ body {
 
 }
 
-@media (min-width: 375px) and (max-width: 767px),
-(pointer: coarse)  {
+@media (min-width: 375px) and (max-width: 767px)  {
     .conteiner {
         padding-left: calc(50% - 172px);
         padding-right: calc(50% - 172px);
