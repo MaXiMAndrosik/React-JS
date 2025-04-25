@@ -158,7 +158,8 @@
 
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px),
+(pointer: coarse)  {
     .registration-form {
         flex-direction: column;
         padding-top: 40px;

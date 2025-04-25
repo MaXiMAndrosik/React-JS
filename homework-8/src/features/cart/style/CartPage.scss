@@ -294,8 +294,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px),
-(pointer: coarse) {
+@media (min-width: 768px) and (max-width: 1024px){
 
     .cart-products {
         flex-direction: column;
@@ -323,7 +322,8 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px),
+(pointer: coarse)  {
 
     .cart-products {
         flex-direction: column;

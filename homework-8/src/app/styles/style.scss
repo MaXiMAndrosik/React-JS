@@ -252,7 +252,8 @@ body {
 
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px),
+(pointer: coarse)  {
     .conteiner {
         padding-left: calc(50% - 172px);
         padding-right: calc(50% - 172px);
