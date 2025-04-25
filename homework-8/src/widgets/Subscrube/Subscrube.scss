@@ -84,7 +84,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px), (pointer: coarse) and (min-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px), (pointer: coarse) and (min-width: 768px){
     .subscrube {
         height: 693px;
 
@@ -112,7 +112,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px), (pointer: coarse) and (max-width: 1023px)  {
+@media (min-width: 375px) and (max-width: 767px) and (pointer: coarse)  {
     .subscrube {
         height: 550px;
 
